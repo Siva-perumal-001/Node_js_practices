@@ -1,0 +1,24 @@
+{
+  "name": "node-practices",
+  "version": "1.0.0",
+  "description": "first node package",
+  "homepage": "https://github.com/Siva-perumal-001/Node_js_practices#readme",
+  "bugs": {
+    "url": "https://github.com/Siva-perumal-001/Node_js_practices/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siva-perumal-001/Node_js_practices.git"
+  },
+  "license": "ISC",
+  "author": "Siva",
+  "type": "commonjs",
+  "main": "access.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

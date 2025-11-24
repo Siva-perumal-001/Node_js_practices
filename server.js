@@ -16,7 +16,7 @@ const server = http.createServer((request,response)=>{
         response.setHeader('Location','/');
         response.end();
     }
-    else if(request.url == '/page1'){
+    else if(request.url == '/page'){
         path += 'page1.html'
         response.statusCode= 200;
     }
